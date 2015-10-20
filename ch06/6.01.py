@@ -1,15 +1,15 @@
-# Exercise 6.1 Write a compare function that returns 1 if x > y, 0 if x == y,
-# and -1 if x < y.
+# Modify the program to fix this error.
 
 # Current Status: Complete
 
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
 
-def compare(x, y):
-    if x > y:
-        return 1
-    elif x == y:
-        return 0
-    return -1
+def ducks():
+    for i in prefixes:
+        if i == "O" or i == "Q":
+            print (i + "u" + suffix)
+        else:
+            print (i + suffix)
 
-print compare(2, 2)
-
+ducks()
